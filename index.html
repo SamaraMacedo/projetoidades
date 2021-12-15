@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Rélogio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+    <section>
+        <div>
+            <p>Seu nascimento ou de alguém conhecido  : <input type="number" name="txtano" id="txtano">
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Orientações</label>
+                </p>
+                <p><input type="button" value="Verificar" onclick="verificar()"></p>
+        </div>
+        <div id="res">Preencha e tenha seu resultado preciso.</div>
+    </section>
+    <footer>
+        <p>&copy;Criado com a ajuda do Curso em Video</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
